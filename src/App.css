@@ -1,3 +1,35 @@
+
+
+.home-page{
+  display: flex;
+  justify-content: center;
+}
+
+.main-menu {    
+  margin-top: 75px;
+  width: 400px;
+  height: 500px;
+  box-shadow: 2px 5px 8px 0px;
+}
+
+.main-menu-header{
+  margin-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.menu-bottom{
+  text-align: center;
+}
+
+.players-btn{
+  margin: 50px;
+}
+
+#one-player, #two-player{
+  width: 300px;
+}
+
 .btn-About{
   color:  #006ee0;
   filter: opacity(.6);
@@ -6,4 +38,9 @@
 .btn-About:hover{
   filter: none;
   cursor: pointer;
+}
+
+.img-modal{
+  padding-left: 50px;
+  width: 400px;
 }

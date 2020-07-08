@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="container">
       <BrowserRouter>
-        <Route exact path="/pvp" render={() => <PvPPage/>}/>
-        <Route exact path="/pvc" render={() => <PvCPage/>}/>
-        <Route exact path="/" render={() => <HomePage/>} />
+        <Route exact path="/pvp" component={PvPPage}/>
+        <Route exact path="/pvc" component={PvCPage}/>
+        <Route exact path="/" component={HomePage} />
       </BrowserRouter>
     </div>
   );

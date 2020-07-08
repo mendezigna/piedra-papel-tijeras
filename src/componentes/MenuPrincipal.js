@@ -1,30 +1,17 @@
-import React, { useState } from 'react';
-import {useHistory, Redirect} from 'react-router-dom';
+import React from 'react';
+import {useHistory} from 'react-router-dom';
+import Modal from './Modal';
 
 export default function MenuPrincipal(){
 
-    const [unJugador, setUnJugador] = useState(true);
 
     let history = useHistory();
 
     const pvc = () => {
-        if(!unJugador){
-            setUnJugador(true);
-        }
+        history.push("/pvc")
     }
     const pvp = () => {
-        if(unJugador){
-            setUnJugador(false);
-        }
-    }
-
-    const jugar = (event) =>{
-        event.preventDefault();
-        if(unJugador){
-            history.push("/pvc")
-        } else {
-            history.push("/pvp")
-        }
+        history.push("/pvp")
     }
 
     return (
@@ -32,25 +19,20 @@ export default function MenuPrincipal(){
             <div className="main-menu-header">
                 <h2> Piedra, Papel, Tijera, Lagarto o Spock</h2>
             </div>
-            <form className="menu-form">
-                <div className="form-group form-check">
-                    <input className="form-check-input" onClick={pvc} type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked />
-                    <label className="form-check-label" for="exampleRadios1">
-                        Un Jugador
-                    </label>
+            <div className="menu-body">
+                <div className="players-btn" >
+                    <button type="button" className="btn btn-primary btn-lg" id="one-player" onClick={pvc}>Un Jugador</button>
                 </div>
-                <div className="form-group form-check">
-                    <input className="form-check-input" onClick={pvp} type="radio" name="exampleRadios" id="exampleRadios2" value="option2" />
-                    <label className="form-check-label" for="exampleRadios2">
-                        Dos Jugadores
-                    </label>
+                <div className="players-btn" > 
+                    <button type="button" className="btn btn-secondary btn-lg" id="two-player"onClick={pvp}>Dos Jugadores</button>
                 </div>
-                <button type="submit" className="btn btn-primary" onClick={jugar}>Jugar</button>
-            </form>
-            <span className="btn-About">
-                <u>Acerca de</u>
-            </span>
-
+            </div>
+            <div className="menu-bottom">
+                <span className="btn-About" data-toggle="modal" data-target="#exampleModal">
+                    <u>Acerca de</u>
+                </span>
+            </div>
+            <Modal />
         </div>
     );
 }
