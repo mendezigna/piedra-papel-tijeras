@@ -14,7 +14,7 @@ export default function Modal(){
                     </div>
                     <div className="modal-body">
                         <p>
-                            Piedra, Papel, Tijera, Lagarto o Spock es una expansión de los clásicos método de selección de juego piedra-papel-tijeras.
+                            Piedra, Papel, Tijera, Lagarto o Spock es una expansión del clásico juego de selección piedra-papel-tijeras.
                         </p> 
                         <img className="img-modal" src={img} alt="piedra, papel, tijera, lagarto o spock img"></img>
                         <p>

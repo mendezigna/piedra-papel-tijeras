@@ -3,6 +3,7 @@ body{
   padding: 0;
   height:100%;
   width: 100%;
+  background-color: whitesmoke;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;

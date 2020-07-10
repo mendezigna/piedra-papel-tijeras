@@ -30,6 +30,7 @@
   width: 300px;
 }
 
+
 .btn-About{
   color:  #006ee0;
   filter: opacity(.6);
@@ -44,3 +45,43 @@
   padding-left: 50px;
   width: 400px;
 }
+
+.header{
+  margin-top: 20px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.jugadores{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+}
+
+.elecciones-jugador{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  align-items: center;
+}
+
+.jugador{
+  text-align: center;
+}
+
+.img-eleccion{
+  transition: all .2s;
+  width: 90px;
+}
+
+.img-eleccion:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#btn-eleccion{
+  color: whitesmoke;
+}
+
+
+
