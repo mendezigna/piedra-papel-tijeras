@@ -48,13 +48,15 @@
 
 .header{
   margin-top: 20px;
+  min-width: 600px;
   text-align: center;
   color: whitesmoke;
 }
 
-.jugadores{
+.page-content{
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 40% 20% 40%;
+  min-width: 600px;
   grid-template-rows: 100%;
 }
 
@@ -82,6 +84,15 @@
 #btn-eleccion{
   color: whitesmoke;
 }
+#btn-eleccion:disabled{
+  opacity: .3;
+}
 
-
+.seccion-ganador{
+  display: flex;
+  margin-top: 100%;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
 
