@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuPrincipal from '../componentes/MenuPrincipal';
+import MenuPrincipal from '../MenuPrincipal';
 
 export default function HomePage(){
     return (

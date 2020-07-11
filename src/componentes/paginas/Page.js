@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Header from '../componentes/Header';
-import JugadorUno from '../componentes/JugadorUno';
-import Ganador from '../componentes/Ganador';
-import JugadorDos from '../componentes/JugadorDos';
+import Header from '../Header';
+import JugadorUno from '../JugadorUno';
+import Ganador from '../Ganador';
+import JugadorDos from '../JugadorDos';
 
 export default function Page({CPU}){
 
