@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/pie-pap-tij-lag-spo/static/css/main.eee687a8.chunk.css",
-    "main.js": "/pie-pap-tij-lag-spo/static/js/main.2c701ce2.chunk.js",
-    "main.js.map": "/pie-pap-tij-lag-spo/static/js/main.2c701ce2.chunk.js.map",
+    "main.js": "/pie-pap-tij-lag-spo/static/js/main.38151989.chunk.js",
+    "main.js.map": "/pie-pap-tij-lag-spo/static/js/main.38151989.chunk.js.map",
     "runtime-main.js": "/pie-pap-tij-lag-spo/static/js/runtime-main.b8dd8357.js",
     "runtime-main.js.map": "/pie-pap-tij-lag-spo/static/js/runtime-main.b8dd8357.js.map",
     "static/css/2.af3c1da9.chunk.css": "/pie-pap-tij-lag-spo/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.64934a18.chunk.js": "/pie-pap-tij-lag-spo/static/js/2.64934a18.chunk.js",
-    "static/js/2.64934a18.chunk.js.map": "/pie-pap-tij-lag-spo/static/js/2.64934a18.chunk.js.map",
+    "static/js/2.4457a7ca.chunk.js": "/pie-pap-tij-lag-spo/static/js/2.4457a7ca.chunk.js",
+    "static/js/2.4457a7ca.chunk.js.map": "/pie-pap-tij-lag-spo/static/js/2.4457a7ca.chunk.js.map",
     "index.html": "/pie-pap-tij-lag-spo/index.html",
-    "precache-manifest.c710457af1e105dbc894bb14c2cf4ed0.js": "/pie-pap-tij-lag-spo/precache-manifest.c710457af1e105dbc894bb14c2cf4ed0.js",
+    "precache-manifest.a67876cd58532d151cb94916afb3dd85.js": "/pie-pap-tij-lag-spo/precache-manifest.a67876cd58532d151cb94916afb3dd85.js",
     "service-worker.js": "/pie-pap-tij-lag-spo/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/pie-pap-tij-lag-spo/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.eee687a8.chunk.css.map": "/pie-pap-tij-lag-spo/static/css/main.eee687a8.chunk.css.map",
-    "static/js/2.64934a18.chunk.js.LICENSE.txt": "/pie-pap-tij-lag-spo/static/js/2.64934a18.chunk.js.LICENSE.txt",
+    "static/js/2.4457a7ca.chunk.js.LICENSE.txt": "/pie-pap-tij-lag-spo/static/js/2.4457a7ca.chunk.js.LICENSE.txt",
     "static/media/img-modal.webp": "/pie-pap-tij-lag-spo/static/media/img-modal.676ea259.webp",
     "static/media/lagarto.png": "/pie-pap-tij-lag-spo/static/media/lagarto.cdaf8eca.png",
     "static/media/papel.png": "/pie-pap-tij-lag-spo/static/media/papel.b961c00d.png",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.b8dd8357.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.64934a18.chunk.js",
+    "static/js/2.4457a7ca.chunk.js",
     "static/css/main.eee687a8.chunk.css",
-    "static/js/main.2c701ce2.chunk.js"
+    "static/js/main.38151989.chunk.js"
   ]
 }
