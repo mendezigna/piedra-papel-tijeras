@@ -1,4 +1,4 @@
-# unq-ui-ignacio-mendez-trabajo-final
+# Piedra, Papel, Tijeras, Lagarto o Spock
 
 ### Cómo correr la aplicación
 1) Clonar el repositorio.
