@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "720c35ff05c3ec7641a190766c52f5e8",
+    "revision": "2ae32f988aea5f16fed6971529b7a5b5",
     "url": "/pie-pap-tij-lag-spo/index.html"
   },
   {
