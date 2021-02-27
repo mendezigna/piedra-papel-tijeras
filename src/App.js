@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="container">
       <HashRouter basename={process.env.PUBLIC_URL}>
-        <Route exact path={process.env.PUBLIC_URL + '/pvp'} render={() => <Page CPU={false}/>}/>
-        <Route exact path={process.env.PUBLIC_URL + '/pvc'} render={() => <Page CPU={true}/>}/>        
-        <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
+        <Route exact path='/pvp' render={() => <Page CPU={false}/>}/>
+        <Route exact path='/pvc' render={() => <Page CPU={true}/>}/>        
+        <Route exact path='/' component={HomePage} />
       </HashRouter>
     </div>
   );

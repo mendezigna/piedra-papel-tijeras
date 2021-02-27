@@ -5,15 +5,6 @@ import Modal from './Modal';
 export default function MenuPrincipal(){
 
 
-    let history = useHistory();
-
-    const pvc = () => {
-        history.push("/pvc")
-    }
-    const pvp = () => {
-        history.push("/pvp")
-    }
-
     return (
         <div className="main-menu">
             <div className="main-menu-header">
@@ -21,10 +12,10 @@ export default function MenuPrincipal(){
             </div>
             <div className="menu-body">
                 <div className="players-btn" >
-                    <Link to={process.env.PUBLIC_URL + '/pvc'}><button type="button" className="btn btn-primary btn-lg" id="one-player" >Un Jugador</button> </Link>
+                    <Link to='/pvc'><button type="button" className="btn btn-primary btn-lg" id="one-player" >Un Jugador</button> </Link>
                 </div>
                 <div className="players-btn" > 
-                    <Link to={process.env.PUBLIC_URL + '/pvp'}><button type="button" className="btn btn-secondary btn-lg" id="two-player">Dos Jugadores</button> </Link>
+                    <Link to='/pvp'><button type="button" className="btn btn-secondary btn-lg" id="two-player">Dos Jugadores</button> </Link>
                 </div>
             </div>
             <div className="menu-bottom">
