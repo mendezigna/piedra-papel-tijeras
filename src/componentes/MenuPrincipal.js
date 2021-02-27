@@ -1,5 +1,5 @@
 import React from 'react';
-import {useHistory} from 'react-router-dom';
+import {Link, useHistory} from 'react-router-dom';
 import Modal from './Modal';
 
 export default function MenuPrincipal(){
@@ -21,10 +21,10 @@ export default function MenuPrincipal(){
             </div>
             <div className="menu-body">
                 <div className="players-btn" >
-                    <button type="button" className="btn btn-primary btn-lg" id="one-player" onClick={pvc}>Un Jugador</button>
+                    <Link to={process.env.PUBLIC_URL + '/pvc'}><button type="button" className="btn btn-primary btn-lg" id="one-player" >Un Jugador</button> </Link>
                 </div>
                 <div className="players-btn" > 
-                    <button type="button" className="btn btn-secondary btn-lg" id="two-player"onClick={pvp}>Dos Jugadores</button>
+                    <Link to={process.env.PUBLIC_URL + '/pvp'}><button type="button" className="btn btn-secondary btn-lg" id="two-player">Dos Jugadores</button> </Link>
                 </div>
             </div>
             <div className="menu-bottom">
