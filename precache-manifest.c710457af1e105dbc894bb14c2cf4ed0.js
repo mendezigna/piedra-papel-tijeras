@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3504af5b44b966c92e2e63f3b6e9e570",
+    "revision": "ad1db715951ee5768a9e7e70329140b0",
     "url": "/pie-pap-tij-lag-spo/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pie-pap-tij-lag-spo/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "044ee984893513663114",
+    "revision": "2c9eb679185e3940bf60",
     "url": "/pie-pap-tij-lag-spo/static/css/main.eee687a8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pie-pap-tij-lag-spo/static/js/2.64934a18.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "044ee984893513663114",
-    "url": "/pie-pap-tij-lag-spo/static/js/main.d8696ea2.chunk.js"
+    "revision": "2c9eb679185e3940bf60",
+    "url": "/pie-pap-tij-lag-spo/static/js/main.2c701ce2.chunk.js"
   },
   {
     "revision": "b3308b7c817ef16ef632",

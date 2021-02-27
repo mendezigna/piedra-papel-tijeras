@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pie-pap-tij-lag-spo/precache-manifest.955bea8c6becd5b9926a5552b7008846.js"
+  "/pie-pap-tij-lag-spo/precache-manifest.c710457af1e105dbc894bb14c2cf4ed0.js"
 );
 
 self.addEventListener('message', (event) => {
